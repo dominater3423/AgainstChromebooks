@@ -7,11 +7,15 @@ p {
     color:#666565; /*the font color of all text contained in p tags is slightly lighter than the font color of h1 tags*/
     font-size:20px;
     padding:15px;
+    margin-left:5vw;
+    margin-right:5vw;
 }
 h1 {
     color:#5c5c5c; /*the font color of all text contained in h1 tags is a dark grey (close to black)*/
     font-size:30px;
     padding:20px;
+    margin-left:5vw;
+    margin-right:5vw;
 }
 
 /* a {
