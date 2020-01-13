@@ -13,18 +13,116 @@ h1 {
     font-size:30px;
     padding:20px;
 }
+
+/* a {
+    border-radius:20px; makes images rounded, but might interfere with the nav bar code, so I commented it out
+} */
+
+/*the following code is mainly for the nav bar, feel free to change the colors*/
 body {
     background-color:#f5f5f5; /*the background color is a very light grey*/
+    top:0px;
+    left:0px;
+    margin:0px;
+    display:block;
+    /*position:absolute;*/
 }
-a {
-    border-radius:20px; /*makes the edges of an image rounded*/
+.navbar {
+    overflow: hidden;
+    background-color: #7a7a7a;
+    top:0px;
+    right:0px;
+    margin:0px;
+    width:100vw;
+    display:block;
+    /*position:absolute;*/
 }
 
-/* .divclass { if the group decides to make a nav bar with only one color
-    width:100%;
-    height:100vh;
-    position:absolute;
-    color:#1E6969;
-    background-color:#7a7a7a;
-} */
-/* The nav bar color would be #7a7a7a, for the nav bar, a div with a class or id should be added in the html file(s) */
+.navbar a {
+    float: right;
+    font-size: 16px;
+    color: #1E6969;
+    text-align: center;
+    /*padding: 14px 16px;*/
+    padding:0px 0px;
+    text-decoration: none;
+    top:0px;
+    right:0px;
+    margin:0px;
+    /*position:absolute;*/
+}
+
+.dropdown {
+    float: right;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: #ededed;
+    padding: 14px 16px;
+    background-color: inherit;
+    min-width:160px;
+    /*font-family: inherit;*/
+    margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: #8c8c8c;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #454545;
+    min-width: 160px;
+    /*min-height:130px;*/
+    color:#ededed;
+    /*box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);*/
+    z-index: 2;
+}
+
+.dropdown-content a {
+    float: none;
+    color: #ededed;
+    padding: 12px 16px;
+    text-decoration: none;
+    /*background-color:#454545;*/
+    background-color:#787878;
+    display: block;
+    text-align: center;
+    z-index: 2;
+    /*min-height:130px;*/
+}
+
+.dropdown-content a:hover {
+    background-color: #525252;
+    display:block;
+    z-index: 2;
+    color:#ededed;
+    /*min-height:130px;*/
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    z-index:2;
+    color:#ededed;
+    /*min-height:130px;*/
+}
+/* copy and paste the following div classes into the top of the body section for the nav bar to show up
+<body>
+		<div class="navbar">
+		  <div class="dropdown">
+		    <button class="dropbtn">Dropdown 
+		      <!--<i class="fa fa-caret-down"></i>-->
+		    </button>
+		    <div class="dropdown-content">
+		      <a href="#">Link 1</a>
+		      <a href="#">Link 2</a>
+		      <a href="#">Link 3</a>
+		    </div>
+		  </div> 
+		</div>
+	</body> */
