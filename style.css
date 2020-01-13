@@ -164,7 +164,7 @@ a {
 } */
 /* The nav bar color would be #7a7a7a, for the nav bar, a div with a class or id should be added in the html file(s) */
 
-#nav1 {
+/* #nav1 {
   position: fixed; 
   top: 0%; 
   background: rgba(202,202,202,1); 
@@ -228,7 +228,7 @@ a {
   margin-right: 5%; 
   margin-left: 15%;
 }
-
+ */
 /* a {
     border-radius:20px; makes images rounded, but might interfere with the nav bar code, so I commented it out
 } */
