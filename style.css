@@ -3,22 +3,19 @@
 * {
     font-family: 'Lato', sans-serif; /*the font applies to all text in the html files*/
 }
+
 p {
     color:#666565; /*the font color of all text contained in p tags is slightly lighter than the font color of h1 tags*/
     font-size:20px;
     padding:15px;
 }
+
 h1 {
     color:#5c5c5c; /*the font color of all text contained in h1 tags is a dark grey (close to black)*/
     font-size:30px;
     padding:20px;
 }
 
-/* a {
-    border-radius:20px; makes images rounded, but might interfere with the nav bar code, so I commented it out
-} */
-
-/*the following code is mainly for the nav bar, feel free to change the colors*/
 body {
     background-color:#f5f5f5; /*the background color is a very light grey*/
     top:0px;
@@ -27,6 +24,7 @@ body {
     display:block;
     /*position:absolute;*/
 }
+
 .navbar {
     overflow: hidden;
     background-color: #7a7a7a;
@@ -126,3 +124,88 @@ body {
 		  </div> 
 		</div>
 	</body> */
+=======
+
+a {
+    border-radius:20px; /*makes the edges of an image rounded*/
+}
+
+/* .divclass { if the group decides to make a nav bar with only one color
+    width:100%;
+    height:100vh;
+    position:absolute;
+    color:#1E6969;
+    background-color:#7a7a7a;
+} */
+/* The nav bar color would be #7a7a7a, for the nav bar, a div with a class or id should be added in the html file(s) */
+
+#nav1 {
+  position: fixed; 
+  top: 0%; 
+  background: rgba(202,202,202,1); 
+  width: 100%; 
+  height:60px;   
+  border-radius: 25px; 
+  box-shadow: 0px 6px 12px 0px rgba(0,0,0,0.2);
+}
+
+#nav2 {
+  position: fixed; 
+  top: 0%; 
+  right: 0%; 
+  background: linear-gradient(45deg, rgba(202,202,202,1) 35%, rgba(123,123,123,1) 100%); 
+  width: calc(100% - 335px); 
+  height: 60px;
+}
+
+#logo1 {
+  position: relative; 
+  left: 10px; 
+  bottom: 22px;
+}
+
+#logo2 {
+  position: absolute; 
+  left: 10px; 
+  top: 20px;
+}
+
+#select1 {
+  position:absolute; 
+  left: 20%;
+}
+
+#select2 {
+  position:absolute; 
+  left: 40%;
+}
+
+#select3 {
+  position:absolute; 
+  left: 60%;
+}
+
+#qtext1 {
+  position:relative; 
+  right: 5%;
+}
+
+#quote1 {
+  position:relative; 
+  top: 100px; 
+  float: right; 
+  font-size: 1.5em;
+}
+
+#text1 {
+  position:relative; 
+  top: 100px; 
+  margin-right: 5%; 
+  margin-left: 15%;
+}
+
+/* a {
+    border-radius:20px; makes images rounded, but might interfere with the nav bar code, so I commented it out
+} */
+
+/*the following code is mainly for the nav bar, feel free to change the colors*/
