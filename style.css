@@ -5,8 +5,10 @@
 }
 
 ol {
-    margin-left:5vw;
-    margin-right:5vw;	
+    margin-left: 5vw;
+    margin-right: 5vw;
+    color: #666565; 
+    font-size: 20px;
 }
 
 p {
