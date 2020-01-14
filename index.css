@@ -1,0 +1,50 @@
+#upperdiv{
+  position: absolute;
+  top:0%;
+  right:0%;
+  width:100%;
+  background-color: white;
+  z-index: 1
+}
+#quotediv{
+  position:relative;
+  float:right;
+  right:10px;
+}
+#quote{
+  font-size:3em;
+}
+#text1{
+  position:relative;
+  left:10px
+}
+#backgroundimg{
+  top:0%;
+  right:0%;
+  position: fixed;
+  width:100%;
+  height:1000px;
+  background-image: url("visual-reverse-image-search-v2_intro.jpg");
+}
+#middlediv{
+  position: fixed;
+  top:calc(0% + 200px);
+  right:0%;
+  width:100%;
+  z-index: 1
+}
+#midtext{
+  position: absolute;
+  font-size:40pt;
+  color:white;
+  left:35%;
+  text-align: center;
+}
+#lowerdiv{
+  position: absolute;
+  top:calc(0% + 400px);
+  right:0%;
+  width:100%;
+  background-color: white;
+  z-index: 1
+}
