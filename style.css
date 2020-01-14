@@ -1,9 +1,3 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="utf-8">
-    <link rel="stylesheet" type="text/css" href="style.css">
-</head>
 <body>
     <div class="navbar">
         <div class="dropdown">
@@ -18,35 +12,4 @@
             </div>
         </div>
     </div>
-    <h1>Complaining about Chromebooks</h1>
-    <ul>
-        <li>No function keys</li>
-        <p></p>
-        <li>Blocked websites</li>
-        <p></p>
-        <li>No developer options</li>
-        <p></p>
-        <li>No page up or down keys</li>
-        <p></p>
-        <li>Cant download helpful chrome extensions</li>
-        <p></p>
-        <li>No android support</li>
-        <p></p>
-        <li>Chromebooks run very slow and take a long time to load things</li>
-        <p></p>
-        <li>You cannot save files to the desktop</li>
-        <p></p>
-        <li>Chromebooks can not run certain software</li>
-        <p></p>
-        <li>There is no inspect element</li>
-        <p></p>
-        <li>Chromebooks dont have a lot of local stoarge </li>
-        <p></p>
-        <li>Cant do proper research without access to all the websites</li>
-        <p></p>
-    </ul>
-    <center>
-        <img src="https://external-preview.redd.it/oEnEG5AlJNcvMirHel7NNXIhNyK_q1mv163l9DRgyJs.jpg?auto=webp&s=63072a3ba3f8978d3781c48a9a17e76d3d5ec13d" alt="reddit.com" style="width:400px;height:400px;">
-    </center>
-</body>
-</html>
+    </body>
