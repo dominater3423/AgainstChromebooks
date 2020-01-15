@@ -77,13 +77,12 @@ body {
     color:#ededed;
     padding:14px 16px;
     background-color:inherit;
-    min-width:160px;
-    margin: 0;
-    left:0px;
     border:none;
-    position:fixed;
     z-index:2;
     text-align:center;
+	width: 1%;
+	height: 2%;
+	padding-right: 10px;
 }
 
 .dropdown .dropbtn {
